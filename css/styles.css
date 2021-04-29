@@ -2,3 +2,52 @@
   padding:0;
   margin:0;
 }
+
+#box{
+  background-color: lightgray;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.btn{
+  padding: 2px 5px;
+}
+
+#factFinder, #simpleCalculator{
+  max-width: 320px;
+  min-height: 200px;
+  background-color: rgb(161, 161, 238);
+  margin:20px auto;
+  padding: 20px;
+}
+#btnFactCal{
+  margin: 20px 0;
+  padding: 5px 10px;
+}
+#fact_number{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+}
+#fact_result{
+  border: 1px solid rgb(90, 90, 90);
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 3rem;
+  min-height: 50px;
+  overflow-x: auto;
+}
+#screen{
+  background-color: rgb(243, 234, 234);
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.no_btn{
+  text-align: center;
+  font-size: 2rem;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
