@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory's JS Projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Menu Bar -->
+    <nav id="menu-bar">
+        <ul id="menu">
+            <li class="menu-item">
+                <a href="index.html" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+                <a href="currency.html" class="menu-link">Currency Converter</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- Cards -->
+    <div class="container">
+        <div class="row">
+            <div class="col" onclick="navigate('currency.html')">
+                Currency Converter
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
